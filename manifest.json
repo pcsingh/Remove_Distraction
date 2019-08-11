@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Remove Distraction",
+  "description": "Background noise to concentrate on work.",
+  "version": "1.0.0",
+  "author": "Prem",
+  "homepage_url": "https://qpidea.herokuapp.com",
+
+  "icons": {
+    "128": "images/medi128x128.png",
+    "48": "images/medi48x48.png"
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "16": "images/medi16x16.png",
+      "32": "images/medi32x32.png"
+    }
+  },
+  "background": {
+    "scripts": ["meditation.js"]
+  },
+  "offline_enabled": true
+}
